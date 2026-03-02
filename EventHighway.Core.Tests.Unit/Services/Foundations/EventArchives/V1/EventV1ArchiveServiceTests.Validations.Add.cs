@@ -92,6 +92,14 @@ namespace EventHighway.Core.Tests.Unit.Services.Foundations.EventArchives.V1
                 values: "Value is not recognized");
 
             invalidEventV1ArchiveException.AddData(
+                key: nameof(EventV1Archive.CreatedDate),
+                values: "Required");
+
+            invalidEventV1ArchiveException.AddData(
+                key: nameof(EventV1Archive.UpdatedDate),
+                values: "Required");
+
+            invalidEventV1ArchiveException.AddData(
                 key: nameof(EventV1Archive.ArchivedDate),
                 values: "Required");
 
