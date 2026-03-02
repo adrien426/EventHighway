@@ -271,7 +271,9 @@ namespace EventHighway.Core.Services.Coordinations.Events.V1
             }
 
             listenerEventV1.Response = ranEventCallV1.Response;
-            listenerEventV1.ResponseReasonPhrase = ranEventCallV1.ResponseReasonPhrase;
+
+            listenerEventV1.ResponseReasonPhrase =
+                ranEventCallV1.ResponseReasonPhrase;
 
             listenerEventV1.Status = ranEventCallV1.IsSuccess
                 ? ListenerEventV1Status.Success
@@ -284,7 +286,7 @@ namespace EventHighway.Core.Services.Coordinations.Events.V1
                 await this.eventListenerV1OrchestrationService
                     .ModifyListenerEventV1Async(listenerEventV1);
 
-            eventV1.ListenerEvents.Add(modifiedListenerEventV1);
+            eventV1.ListenerEvents.Add(item: modifiedListenerEventV1);
         }
 
         private static bool HasFailedAndCanRetry(EventCallV1 eventCallV1, EventV1 eventV1) =>
