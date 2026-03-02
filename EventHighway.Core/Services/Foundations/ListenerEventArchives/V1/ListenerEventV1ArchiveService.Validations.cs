@@ -32,12 +32,6 @@ namespace EventHighway.Core.Services.Foundations.ListenerEventArchives.V1
                 (Rule: IsInvalid(listenerEventV1Archive.Status),
                 Parameter: nameof(ListenerEventV1Archive.Status)),
 
-                (Rule: IsInvalid(listenerEventV1Archive.CreatedDate),
-                Parameter: nameof(ListenerEventV1Archive.CreatedDate)),
-
-                (Rule: IsInvalid(listenerEventV1Archive.UpdatedDate),
-                Parameter: nameof(ListenerEventV1Archive.UpdatedDate)),
-
                 (Rule: IsInvalid(listenerEventV1Archive.ArchivedDate),
                 Parameter: nameof(ListenerEventV1Archive.ArchivedDate)),
 
