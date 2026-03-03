@@ -122,7 +122,7 @@ When an event is submitted, notifications are sent to all registered `EventListe
 [![YouTube EventHighway Introduction](https://raw.githubusercontent.com/hassanhabib/EventHighway/refs/heads/main/EventHighway.Core/Resources/Images/YT/intro-eventhighway.jpg)](https://www.youtube.com/watch?v=z3_wx29Cs9U)
 
 # Introduction to V1 Version
-[![YouTube EventHighway v2.1.0 V1 Introduction](https://raw.githubusercontent.com/hassanhabib/EventHighway/refs/heads/main/EventHighway.Core/Resources/Images/YT/v1-eventhighway.jpg)](https://www.youtube.com/watch?v=9n2s8l7Xo5I)
+[![YouTube EventHighway v2.1.0 V1 Introduction](https://raw.githubusercontent.com/hassanhabib/EventHighway/refs/heads/main/EventHighway.Core/Resources/Images/YT/v1-eventhighway.jpg)](https://www.youtube.com/watch?v=54YWf9G5cE8&t=1407s)
 
 ---
 
